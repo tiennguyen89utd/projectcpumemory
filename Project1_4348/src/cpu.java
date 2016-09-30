@@ -6,7 +6,7 @@ import java.util.*;
 import java.io.*;
 public class cpu {
     public int sp = 1000;
-    public int pc, ir, ac, x, y = 0;
+    public int ac = pc = ir = x = y = 0;
     public BufferedReader in;
     public BufferedWriter out;
 
@@ -84,7 +84,6 @@ public class cpu {
                 break;
             case 30:// End execution
                 break;
-
 
         }
     }
